@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Balam Cup</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="menu">
+          <a href="index.html" class="logo">Balam Cup</a>
+          <input type="checkbox" id="menu" />
+          <label for="menu">
+            <img class="menu-icono" src="menu.png" alt="Menú" />
+          </label>
+          <nav class="navbar">
+            <ul>
+              <li><a href="registro.html">Registro</a></li>
+              <li><a href="torneo.html">Torneo</a></li>
+              <li><a href="index.html">Información</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-content">
+          <div class="header-txt">
+            <h1>Informacion de los torneos<br />aqui</h1>
+            <p>
+              Aqui podras observar mas informacion sobre los torneos y escoger
+              cual asistir .
+            </p>
+          </div>
+          <div class="header-img">
+            <img src="torneo rubius.jpg" alt="Torneo Fortnite" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="products container">
+      <div class="schedule-header">
+        <div class="schedule-filter">
+          <button class="filter-btn" id="filter-btn">Horarios</button>
+          <div class="filter-options" id="filter-options">
+            <div class="filter-option" data-time="all">Todos</div>
+            <div class="filter-option" data-time="afternoon">
+              Tarde (12pm-6pm)
+            </div>
+            <div class="filter-option" data-time="evening">
+              Noche (6pm-12am)
+            </div>
+          </div>
+        </div>
+        <h2>Torneos</h2>
+      </div>
+
+      <div class="products-content">
+        <!-- Torneos de tarde -->
+        <div class="tournament-card" data-time="afternoon">
+          <img src="battle royale.jpg" alt="Battle Royale" />
+          <div class="tournament-info">
+            <h3>Battle Royal</h3>
+            <p class="tournament-time">12:00pm</p>
+            <a href="#" class="btn-1">Información</a>
+          </div>
+        </div>
+
+        <div class="tournament-card" data-time="afternoon">
+          <img src="landscape_comp.jpeg" alt="Hide and Seek" />
+          <div class="tournament-info">
+            <h3>Hide and Seek</h3>
+            <p class="tournament-time">1:00pm</p>
+            <a href="#" class="btn-1">Información</a>
+          </div>
+        </div>
+
+        <div class="tournament-card" data-time="afternoon">
+          <img src="ballistic.jpg" alt="Ballistic" />
+          <div class="tournament-info">
+            <h3>Ballistic</h3>
+            <p class="tournament-time">2:00pm</p>
+            <a href="#" class="btn-1">Información</a>
+          </div>
+        </div>
+
+        <div class="tournament-card" data-time="afternoon">
+          <img
+            src="teamrumble-1920-1920x1080-e3e71ed47b14.jpg"
+            alt="Team Rumble"
+          />
+          <div class="tournament-info">
+            <h3>Team Rumble</h3>
+            <p class="tournament-time">3:00pm</p>
+            <a href="#" class="btn-1">Información</a>
+          </div>
+        </div>
+
+        <!-- Torneos de noche -->
+        <div class="tournament-card" data-time="evening">
+          <img src="50vs50.jpg" alt="50vs50" />
+          <div class="tournament-info">
+            <h3>50vs50</h3>
+            <p class="tournament-time">5:00pm</p>
+            <a href="#" class="btn-1">Información</a>
+          </div>
+        </div>
+
+        <div class="tournament-card" data-time="evening">
+          <img src="maxresdefault.jpg" alt="Cero Construcción" />
+          <div class="tournament-info">
+            <h3>Cero Construccion</h3>
+            <p class="tournament-time">7:00pm</p>
+            <a href="#" class="btn-1">Información</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer container">
+      <div class="footer-content">
+        <a href="#" class="logo">Balam Cup</a>
+        <ul>
+          <li>
+            <a href="#"
+              >Av. Los Próceres 173, Santiago de Surco 15056 - © Derechos
+              reservados por Balam Cup - Balamcup@fortnite.com</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="torneo.js"></script>
+  </body>
+</html>

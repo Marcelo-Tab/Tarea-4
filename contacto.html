@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Balam Cup</title>
+    <link rel="stylesheet" type="text/css" href="contacto.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="menu">
+          <a href="index.html" class="logo">Balam Cup</a>
+          <input type="checkbox" id="menu" />
+          <label for="menu" aria-label="Menú de navegación">
+            <img class="menu-icono" src="menu.png" alt="Menú" />
+          </label>
+          <nav class="navbar">
+            <ul>
+              <li><a href="registro.css">Registro</a></li>
+              <li><a href="torneo.html">Torneo</a></li>
+              <li><a href="index.html">Información</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content container">
+      <section class="contacto-group">
+        <h2>Contactanos</h2>
+        <p>Si tienes alguna pregunta, siéntete libre de hacernosla</p>
+        <form class="contact-form">
+          <label for="name">Nombre:</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Ingresa tu nombre"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Ingresa tu email"
+            required
+          />
+
+          <label for="message">Mensaje:</label>
+          <textarea
+            id="message"
+            placeholder="Escribe tu mensaje"
+            required
+          ></textarea>
+
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+
+      <section class="mapa">
+        <h2>Ubicación</h2>
+        <div class="mapa-content">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.77880093717954!2d-76.9866060191648!3d-12.148998797038418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b97006d6f605%3A0x78b41aaa1a874638!2sDreams%20Accesorios!5e0!3m2!1ses-419!2spe!4v1743809936369!5m2!1ses-419!2spe"
+            width="100%"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Ubicación de Balam Cup"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Av. Los Próceres 173, Santiago de Surco 15056, - © Derechos reservados
+          por Balam Cup - Balam_cup22@fortnite.com
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
